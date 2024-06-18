@@ -1,0 +1,8 @@
+mô hình hiện tại vẫn chưa đạt được hiệu suất mong muốn. Một số vấn đề có thể xảy ra:
+
+Underfitting: Độ chính xác trên tập huấn luyện thấp cho thấy mô hình không học tốt từ dữ liệu huấn luyện.
+Không tương thích giữa tập huấn luyện và tập kiểm định: Độ chính xác trên tập kiểm định thấp hơn nhiều so với tập huấn luyện, cho thấy mô hình chưa tổng quát hóa tốt trên dữ liệu mới.
+
+Các biện pháp cải thiện mô hình:
+Tăng độ phức tạp của mô hình: Thêm nhiều lớp hơn hoặc tăng số lượng filter trong các lớp Conv2D.
+Điều chỉnh learning rate: Sử dụng learning rate schedule để tối ưu hóa tốc độ học.
