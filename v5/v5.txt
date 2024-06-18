@@ -1,0 +1,5 @@
+Mô hình hiện tại vẫn chưa đạt được hiệu suất mong muốn 
+
+Các điều chỉnh để cải thiện mô hình:
+- Tăng số lượng filters hoặc thay đổi kiến trúc mạng: Có thể thử tăng số lượng filters trong các lớp Conv2D hoặc thay đổi kiến trúc mạng để mô hình có khả năng học tốt hơn.
+- Regularization: Áp dụng các kỹ thuật regularization như L2 regularization để giảm overfitting.
