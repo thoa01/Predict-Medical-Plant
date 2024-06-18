@@ -1,0 +1,4 @@
+Mô hình có dấu hiệu của việc overfitting, được thể hiện qua độ chính xác cao trên tập huấn luyện nhưng thấp trên tập kiểm tra và tập kiểm định.
+
+Để giải quyết vấn đề overfitting, điều chỉnh learning rate có thể là một trong nhiều giải pháp.
+Tuy nhiên, thường thì việc giảm learning rate sẽ giúp mô hình hội tụ từ từ và tránh bị overfitting, trong khi tăng learning rate có thể khiến mô hình hội tụ nhanh hơn nhưng dễ dẫn đến overfitting hơn
