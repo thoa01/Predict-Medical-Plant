@@ -1,0 +1,12 @@
+Mô hình đang gặp vấn đề nghiêm trọng về overfitting. 
+Độ chính xác trên tập huấn luyện rất cao (96.95%) nhưng lại rất thấp trên tập kiểm định và kiểm tra (69.27%). 
+Điều này cho thấy mô hình học quá tốt trên dữ liệu huấn luyện nhưng không thể tổng quát hóa tốt trên dữ liệu mới (kiểm định và kiểm tra).
+
+Để giải quyết vấn đề:
+Lớp Dropout: Thêm các lớp dropout sau mỗi lớp MaxPool2D với tỷ lệ 0.25 để giảm overfitting.
+Lớp Dense: Thêm một lớp Dense với 512 neuron để tăng khả năng biểu diễn của mô hình.
+
+Giải thích:
+"Tăng khả năng biểu diễn của mô hình" có nghĩa là làm cho mô hình có thể học được nhiều đặc trưng phức tạp và tinh vi hơn từ dữ liệu. 
+Điều này thường được thực hiện bằng cách thêm nhiều lớp hơn, tăng số lượng neuron trong mỗi lớp, hoặc thêm các lớp khác nhau vào mô hình. 
+Tuy nhiên, cần lưu ý rằng việc tăng khả năng biểu diễn cũng có thể làm tăng nguy cơ overfitting, do đó, cần cân nhắc các biện pháp chống overfitting như regularization, dropout, và data augmentation.
