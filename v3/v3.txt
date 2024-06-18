@@ -1,0 +1,11 @@
+Có vẻ mô hình chưa học tốt từ dữ liệu, và điều này có thể do nhiều nguyên nhân, bao gồm nhưng không giới hạn ở:
+
+- Số lượng epochs chưa đủ.
+- Cấu trúc mô hình chưa phù hợp.
+- Chưa có đủ dữ liệu huấn luyện hoặc dữ liệu huấn luyện chưa đủ phong phú.
+- Learning rate có thể không phù hợp.
+
+Các bước cải thiện mô hình:
+- Tăng số lượng epochs: Có thể mô hình cần thêm thời gian để học. 
+- Sử dụng Learning Rate Schedule: Điều chỉnh learning rate trong quá trình huấn luyện.
+- Điều chỉnh cấu trúc mô hình: Thử thêm hoặc thay đổi các lớp để tăng khả năng biểu diễn của mô hình.
